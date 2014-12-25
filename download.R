@@ -1,7 +1,6 @@
 # Download the raw data for the project from the internet and unzip it.
 
 
-download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",
-              "./dataset.zip", method="curl")
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", "./dataset.zip")
 
 unzip("./dataset.zip")
